@@ -1,4 +1,4 @@
-val scalaVersion = "3.0.0"
+val scalaXVersion = "3.0.0"
 
 lazy val root = project
   .in(file("."))
@@ -6,7 +6,7 @@ lazy val root = project
     name := "streamcrypt",
     version := "0.1.0",
 
-    scalaVersion := scalaVersion,
+    scalaVersion := scalaXVersion,
 
     libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test"
   )
