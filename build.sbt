@@ -14,6 +14,8 @@ lazy val root = project
 
     libraryDependencies += "co.fs2" %% "fs2-io" % fs2Version,
 
-    // To be replaced with Weaver Test
-    libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test"
+    // Weaver Test
+    libraryDependencies += "com.disneystreaming" %% "weaver-cats" % "0.7.3" % Test,
+
+    testFrameworks += new TestFramework("weaver.framework.CatsEffect")
   )
