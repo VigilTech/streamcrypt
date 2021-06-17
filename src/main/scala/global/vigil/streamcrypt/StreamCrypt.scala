@@ -7,7 +7,7 @@ import fs2.{Stream, text}
 
 import java.nio.file.Paths
 
-// TODO - make this a "full" IO app an parse incoming args with decline
+
 object StreamCrypt extends IOApp.Simple {
 
   val blockSize = 1024 * 4
