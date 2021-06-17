@@ -8,10 +8,9 @@ Can handle files as large as the underlying OS/Hardware can handle by using 4K b
 
 ### Some extension
 
-- Add command line parsing with Decline (https://github.com/bkirwi/decline)
-~~Add weaver tests when weaver test moves to 3.0 (https://github.com/disneystreaming/weaver-test)~~
-- Add "plugable" encryption libraries.
-- Add binary encryption 
+- [x] Add weaver tests when weaver test moves for 3.0 
+- [ ] Add "plugable" encryption pipeline stages.
+- [ ] Add binary encryption 
 
 
 
